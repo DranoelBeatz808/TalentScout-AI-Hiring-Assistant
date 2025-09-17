@@ -15,7 +15,11 @@ The assistant collects **candidate information**, dynamically generates **screen
 - **Streamlit UI**: simple user interface and expandable section as Conservation logs.
 
 ---
+##  🎬 Demo Video 
+https://drive.google.com/file/d/1hJWwFMnttqWmTgMapfsegaZRuH22N8r8/view?usp=sharing
 
+
+---
 ## 🛠️ Technical Details
 -  Frontend: Streamlit 
 -  Backend: Python utilities (python 3.10+)
