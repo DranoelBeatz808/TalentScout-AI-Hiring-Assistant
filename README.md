@@ -6,44 +6,45 @@ The assistant collects **candidate information**, dynamically generates **screen
 ---
 
 ## 🎯 Features
-   • **Interactive Chatbot**: Greets candidates and guides them through the initial screening process.
-   • **Candidate Information Collection**: Gathers full name, email, phone, years of experience, desired position, location, and   tech stack.
-   • **Technical Question Generation**: Automatically generates 3–5 questions per technology listed in the candidate's tech stack.
-   • **Context-Aware Flow**: One question at a time with individual answer submission, preserving conversation context.
-   • **Fallback Mechanism**: Provides simulated questions when API access is unavailable.
-   • **Data Storage**: Stores candidate responses and questions in a JSON file (simulated_db.json) for later review.
-   • **Streamlit UI**: simple user interface and expandable section as Conservation logs.
+-  **Interactive Chatbot**: Greets candidates and guides them through the initial screening process.
+-  **Candidate Information Collection**: Gathers full name, email, phone, years of experience, desired position, location, and   tech stack.
+-  **Technical Question Generation**: Automatically generates 3–5 questions per technology listed in the candidate's tech stack.
+-  **Context-Aware Flow**: One question at a time with individual answer submission, preserving conversation context.
+-  **Fallback Mechanism**: Provides simulated questions when API access is unavailable.
+-  **Data Storage**: Stores candidate responses and questions in a JSON file (simulated_db.json) for later review.
+- **Streamlit UI**: simple user interface and expandable section as Conservation logs.
 
 ---
 
 ## 🛠️ Technical Details
-   • Frontend: Streamlit 
-   • Backend: Python utilities (python 3.10+)
-   • LLM Integration: Google Gemini AI (optional)
-   • Fallback: Simulated technical questions for offline mode
-   • Data Storage: Simulated JSON database (simulated_db.json)  
+-  Frontend: Streamlit 
+-  Backend: Python utilities (python 3.10+)
+-  LLM Integration: Google Gemini AI (optional)
+-  Fallback: Simulated technical questions for offline mode
+-  Data Storage: Simulated JSON database (simulated_db.json)  
 
 ---
 
 ## 📂 Project Structure  
 
-talentscout/
-│── app.py # Main Streamlit app
-│── utils.py # Helper functions (Gemini integration, Q&A handling)
-│── prompts.py # prompts design 
-│── simulated_db.json # Local JSON database (auto-created)
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
-
-
+```bash
+TalentScout-AI-Hiring-Assistant/
+│
+├── app.py # Main Streamlit app
+├── utils.py # Helper functions (Gemini integration, Q&A handling)
+├── prompts.py # Prompts design
+├── simulated_db.json # Local JSON database (auto-created)
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+```
 ---
 
 ## 🚀 Get Strated
 
 1. Clone the repo:
 ```bash
-   git clone https://github.com/yourusername/talentscout.git
-   cd talentscout
+   git clone https://github.com/narayana36/TalentScout-AI-Hiring-Assistant.git
+   cd TalentScout-AI-Hiring-Assistant
    ```
 2. Create a virtual environment & activate:
 ```bash
